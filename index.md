@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Carlos Guerra
+title: Home
 ---
 
 # Carlos A. Guerra
