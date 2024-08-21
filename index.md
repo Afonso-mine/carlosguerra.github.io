@@ -4,7 +4,7 @@ title: Carlos Guerra
 ---
 
 # Carlos A. Guerra
-<img src="Carlos.jpg" alt="Carlos" align="left" style="width:350px;height:200px;">
+<img src="Carlos.jpg" alt="Carlos" align="left" style="width:200px;height:250px;">
 Starting May 2023 I am an Assistant Professor of Probability and Statistics at the
 [Departamento de Matemática, Universidade do Porto](https://www.cmup.pt). Previously my research was funded  by
 the [Fundação para a Ciência e a Tecnologia](https://www.fct.pt)   and I 
