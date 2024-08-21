@@ -1,5 +1,3 @@
 # carlosguerra.github.io
 
-<DOCTYPE html>
-
-hiiiii
+This is a test.
