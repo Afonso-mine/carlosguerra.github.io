@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-{% seo %}
+    {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
@@ -25,14 +25,13 @@
       <div id="banner">
         <span id="logo"></span>
 
-        <a href="{{ https://github.com/Afonso-mine/carlosguerra.github.io }}" class="button fork"><strong>View On GitHub</strong></a>
+        <a href="https://github.com/Afonso-mine/carlosguerra.github.io" class="button fork"><strong>View On GitHub</strong></a>
           <div class="website">
             <span>Check out Problem Solver:</span>
             <ul>
-              <li><a href="{{ https://github.com/Afonso-mine/Problem-Solver }}" class="button">Afonso-mine/Problem-Solver</a></li>
+              <li><a href="https://github.com/Afonso-mine/Problem-Solver" class="button">Afonso-mine/Problem-Solver</a></li>
             </ul>
           </div>
-        {% end if %}
       </div><!-- end banner -->
 
     <div class="wrapper">
@@ -41,11 +40,10 @@
       </nav>
       <section>
         {{ content }}
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ https://github.com/Afonso-mine/carlosguerra.github.io }}">{{ Afonso-mine }}</a></p>
+          <p>Project maintained by <a href="https://github.com/Afonso-mine/carlosguerra.github.io">Afonso-mine</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
