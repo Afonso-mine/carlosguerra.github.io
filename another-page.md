@@ -2,8 +2,10 @@
 layout: default
 ---
 
-## Welcome to another page
+## Welcome to my research page
 
-_yay_
+**My articles**
+
+{% include publications %}
 
 [back](./)
