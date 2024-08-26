@@ -12,6 +12,6 @@ layout: default
 
 **Main collaborations**
 
-{% include test.kmz %}
+
 
 [back](./)
