@@ -12,6 +12,6 @@ layout: default
 
 **Main collaborations**
 
-
+{%  include test.kml  %}
 
 [back](./)
