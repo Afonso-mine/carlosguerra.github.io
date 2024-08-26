@@ -2,14 +2,19 @@
 layout: default
 ---
 
-## Welcome to my research page
+# Welcome to my research page
 
 [back](./)
 
 **My articles**
 
-{% include publications %}
+**2020**
 
+{% include publications_2020 %}
+
+**All years**
+
+{% include publications %}
 **Main collaborations**
 
 # My Interactive Map
