@@ -44,7 +44,7 @@ layout: default
   var marker = L.marker([39.557191, -7.8536599]).addTo(map); // Example: Portugal coordinates
 
   // Optional: Add a popup to the marker
-  marker.bindPopup("<b>Carlos!</b><br>https://en.wikipedia.org/wiki/San_Francisco").openPopup();
+  marker.bindPopup("<b>Portugal!</b><br>https://en.wikipedia.org/wiki/Portugal").openPopup();
 </script>
 
 
