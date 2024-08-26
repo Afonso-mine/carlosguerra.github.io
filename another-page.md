@@ -20,18 +20,28 @@ layout: default
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 
 <script>
+  // Initialize the map centered on a specific location
   var map = L.map('map').setView([37.7749, -122.4194], 10); // Example: San Francisco coordinates
 
+  // Add OpenStreetMap tiles to the map
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
+  // Load GeoJSON data from an external file
   fetch('assets/your-geojson-file.geojson')
     .then(response => response.json())
     .then(data => {
       L.geoJSON(data).addTo(map);
     });
+
+  // Add a marker to the map at a specific location
+  var marker = L.marker([37.7749, -122.4194]).addTo(map); // Example: San Francisco coordinates
+
+  // Optional: Add a popup to the marker
+  marker.bindPopup("<b>Hello!</b><br>This is San Francisco.").openPopup();
 </script>
+
 
 
 [back](./)
